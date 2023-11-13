@@ -124,7 +124,7 @@ function InputGroup(props: {
   );
 }
 function App() {
-  const [options, setOptions] = useState<Parameters<typeof garbageCalcV2>[1]>({
+  const [options] = useState<Parameters<typeof garbageCalcV2>[1]>({
     b2bChaining: true,
     comboTable: "multiplier",
     garbageBlocking: "combo blocking",
